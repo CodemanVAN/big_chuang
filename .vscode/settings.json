@@ -1,0 +1,17 @@
+{
+	"sqltools.connections": [
+		{
+			"mysqlOptions": {
+				"authProtocol": "default"
+			},
+			"previewLimit": 50,
+			"server": "192.168.192.71",
+			"port": 3306,
+			"driver": "MySQL",
+			"name": "pi_sql",
+			"database": "mysql",
+			"username": "root",
+			"password": "liao520520"
+		}
+	]
+}
