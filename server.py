@@ -49,8 +49,11 @@ class Server:
             try:
                 data = c.recv(1024)
                 print(data)
+                with open('test.mp3','wb+') as f:
+                    f.write(data)
+                    f.close()
                 self.broadcast(c, data)
- 
+
             except socket.error:
                 c.close()
  
