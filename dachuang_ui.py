@@ -137,7 +137,6 @@ class Ui_main_wd(object):
         self.frame.setGeometry(QtCore.QRect(10, 130, 640, 480))
         self.frame.setText("")
         self.frame.setObjectName("frame")
-
         self.retranslateUi(main_wd)
         QtCore.QMetaObject.connectSlotsByName(main_wd)
 
