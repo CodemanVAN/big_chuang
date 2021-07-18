@@ -1,11 +1,6 @@
 
 # -*- coding: utf-8 -*-
  
-'''
-author:Decadence
-email:leizhang9527@163.com
-'''
- 
 import wave
 import time
 from datetime import datetime

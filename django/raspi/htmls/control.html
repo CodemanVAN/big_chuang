@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>控制摄像头开关</title>
+</head>
+
+<body>
+    <form action="./" method="get">
+        <div>执行命令:
+            <label><input type="radio" name="command" value="start">打开监控</label>
+            <label><input type="radio" name="command" value="stop">关闭监控</label>
+            <label><input type="radio" name="command" value="down_rope">降下救生装置</label>
+            <label><input type="radio" name="command" value="del">删除陈旧监控视频</label>
+        </div>
+        <input type="submit" value="执行" />
+    </form>
+    <h1>{{ res }}</h1>
+    <iframe  src = "http://192.168.192.71:8081"  width = "800"  height = "600"  frameborder = "0"  scrolling = "no" ></iframe >
+</body>
+</html>
