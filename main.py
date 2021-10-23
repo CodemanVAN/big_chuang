@@ -11,9 +11,7 @@ from PyQt5.QtGui import *
 import client
 import dachuang_ui
 
-face_cascade = cv2.CascadeClassifier(
-    r'C:\Users\18249\AppData\Local\Programs\Python' +
-    r'\Python38-32\Lib\site-packages\cv2\data\haarcascade_frontalface_alt.xml')
+face_cascade = cv2.CascadeClassifier(r'C:\ProgramData\Miniconda3\Lib\site-packages\cv2\data\haarcascade_frontalface_alt.xml')
 cap = cv2.VideoCapture(0)
 
 
