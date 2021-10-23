@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file
-# 'c:\Users\18249\Desktop\大创\大创.ui'
+# Form implementation generated from reading ui file '.\大创.ui'
 #
 # Created by: PyQt5 UI code generator 5.13.2
 #
@@ -18,8 +17,7 @@ class Ui_main_wd(object):
         self.horizontalLayoutWidget = QtWidgets.QWidget(main_wd)
         self.horizontalLayoutWidget.setGeometry(QtCore.QRect(0, 0, 402, 41))
         self.horizontalLayoutWidget.setObjectName("horizontalLayoutWidget")
-        self.horizontalLayout = QtWidgets.QHBoxLayout(
-            self.horizontalLayoutWidget)
+        self.horizontalLayout = QtWidgets.QHBoxLayout(self.horizontalLayoutWidget)
         self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
         self.horizontalLayout.setObjectName("horizontalLayout")
         self.label_2 = QtWidgets.QLabel(self.horizontalLayoutWidget)
@@ -44,13 +42,10 @@ class Ui_main_wd(object):
         self.pushButton_4.setObjectName("pushButton_4")
         self.horizontalLayout.addWidget(self.pushButton_4)
         self.horizontalLayoutWidget_2 = QtWidgets.QWidget(main_wd)
-        self.horizontalLayoutWidget_2.setGeometry(
-            QtCore.QRect(210, 40, 216, 80))
+        self.horizontalLayoutWidget_2.setGeometry(QtCore.QRect(210, 40, 216, 80))
         self.horizontalLayoutWidget_2.setObjectName("horizontalLayoutWidget_2")
-        self.horizontalLayout_3 = QtWidgets.QHBoxLayout(
-            self.horizontalLayoutWidget_2)
-        self.horizontalLayout_3.setSizeConstraint(
-            QtWidgets.QLayout.SetMinimumSize)
+        self.horizontalLayout_3 = QtWidgets.QHBoxLayout(self.horizontalLayoutWidget_2)
+        self.horizontalLayout_3.setSizeConstraint(QtWidgets.QLayout.SetMinimumSize)
         self.horizontalLayout_3.setContentsMargins(0, 0, 0, 0)
         self.horizontalLayout_3.setObjectName("horizontalLayout_3")
         self.verticalLayout = QtWidgets.QVBoxLayout()
@@ -74,8 +69,7 @@ class Ui_main_wd(object):
         self.label_6.setFont(font)
         self.label_6.setObjectName("label_6")
         self.verticalLayout_2.addWidget(self.label_6)
-        self.progressBar = QtWidgets.QProgressBar(
-            self.horizontalLayoutWidget_2)
+        self.progressBar = QtWidgets.QProgressBar(self.horizontalLayoutWidget_2)
         self.progressBar.setProperty("value", 24)
         self.progressBar.setObjectName("progressBar")
         self.verticalLayout_2.addWidget(self.progressBar)
@@ -84,11 +78,9 @@ class Ui_main_wd(object):
         self.verticalLayout_2.addWidget(self.label_7)
         self.horizontalLayout_3.addLayout(self.verticalLayout_2)
         self.horizontalLayoutWidget_3 = QtWidgets.QWidget(main_wd)
-        self.horizontalLayoutWidget_3.setGeometry(
-            QtCore.QRect(10, 40, 198, 80))
+        self.horizontalLayoutWidget_3.setGeometry(QtCore.QRect(10, 40, 198, 80))
         self.horizontalLayoutWidget_3.setObjectName("horizontalLayoutWidget_3")
-        self.horizontalLayout_4 = QtWidgets.QHBoxLayout(
-            self.horizontalLayoutWidget_3)
+        self.horizontalLayout_4 = QtWidgets.QHBoxLayout(self.horizontalLayoutWidget_3)
         self.horizontalLayout_4.setContentsMargins(0, 0, 0, 0)
         self.horizontalLayout_4.setObjectName("horizontalLayout_4")
         self.label = QtWidgets.QLabel(self.horizontalLayoutWidget_3)
@@ -106,11 +98,9 @@ class Ui_main_wd(object):
         self.comboBox.addItem("")
         self.horizontalLayout_4.addWidget(self.comboBox)
         self.horizontalLayoutWidget_4 = QtWidgets.QWidget(main_wd)
-        self.horizontalLayoutWidget_4.setGeometry(
-            QtCore.QRect(410, 0, 231, 21))
+        self.horizontalLayoutWidget_4.setGeometry(QtCore.QRect(410, 0, 231, 21))
         self.horizontalLayoutWidget_4.setObjectName("horizontalLayoutWidget_4")
-        self.horizontalLayout_5 = QtWidgets.QHBoxLayout(
-            self.horizontalLayoutWidget_4)
+        self.horizontalLayout_5 = QtWidgets.QHBoxLayout(self.horizontalLayoutWidget_4)
         self.horizontalLayout_5.setContentsMargins(0, 0, 0, 0)
         self.horizontalLayout_5.setObjectName("horizontalLayout_5")
         self.label_3 = QtWidgets.QLabel(self.horizontalLayoutWidget_4)
@@ -128,11 +118,9 @@ class Ui_main_wd(object):
         self.label_10.setObjectName("label_10")
         self.horizontalLayout_5.addWidget(self.label_10)
         self.horizontalLayoutWidget_5 = QtWidgets.QWidget(main_wd)
-        self.horizontalLayoutWidget_5.setGeometry(
-            QtCore.QRect(410, 40, 232, 20))
+        self.horizontalLayoutWidget_5.setGeometry(QtCore.QRect(410, 40, 232, 20))
         self.horizontalLayoutWidget_5.setObjectName("horizontalLayoutWidget_5")
-        self.horizontalLayout_6 = QtWidgets.QHBoxLayout(
-            self.horizontalLayoutWidget_5)
+        self.horizontalLayout_6 = QtWidgets.QHBoxLayout(self.horizontalLayoutWidget_5)
         self.horizontalLayout_6.setContentsMargins(0, 0, 0, 0)
         self.horizontalLayout_6.setObjectName("horizontalLayout_6")
         self.label_9 = QtWidgets.QLabel(self.horizontalLayoutWidget_5)
@@ -149,10 +137,6 @@ class Ui_main_wd(object):
         self.frame.setGeometry(QtCore.QRect(10, 130, 640, 480))
         self.frame.setText("")
         self.frame.setObjectName("frame")
-        self.checkBox = QtWidgets.QCheckBox(main_wd)
-        self.checkBox.setGeometry(QtCore.QRect(540, 100, 111, 16))
-        self.checkBox.setObjectName("checkBox")
-
         self.retranslateUi(main_wd)
         QtCore.QMetaObject.connectSlotsByName(main_wd)
 
@@ -176,4 +160,3 @@ class Ui_main_wd(object):
         self.label_10.setText(_translate("main_wd", "2021年10月21日13:00分"))
         self.label_9.setText(_translate("main_wd", "收到信息："))
         self.label_11.setText(_translate("main_wd", "江南大学北区疑似有人溺水"))
-        self.checkBox.setText(_translate("main_wd", "显示水域识别结果"))

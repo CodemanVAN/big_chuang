@@ -269,6 +269,19 @@
     <string/>
    </property>
   </widget>
+  <widget class="QCheckBox" name="checkBox">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>100</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>显示水域识别结果</string>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>
